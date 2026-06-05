@@ -48,20 +48,22 @@ To make the text ready for advanced models, we performed:
 * قمنا بتدريب كائن الـ **`ldamodel.LdaModel()`** لاكتشاف الـ Topics والمفاهيم الأساسية المسيطرة على أحداث الرواية بشكل تلقائي وتقسيم الكلمات بناءً عليها وعرض التوزيع الاحتمالي للكلمات في كل موضوع.
 
 ---
-
----
-
 ## 📈 Key Results & Insights (أبرز النتائج)
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/908624e1-8909-40b3-8b05-15a6337d3095" width="60%" alt="Word Cloud Analysis" />
-  <img src="https://github.com/user-attachments/assets/563ce396-bf94-4f68-9790-76f4a9fd46c9" width="35%" alt="Top Words Frequency" />
-</p>
-
-* **Visual Summary**: سحابة الكلمات نجحت في إبراز الشخصيات والمفردات المحورية في الرواية (مثل الكلمات المرتبطة بالبطل Pip وعائلة Havisham وجو ومفهوم الـ Time) كما يظهر في الرسم البياني المرفق لأكثر الكلمات تكراراً.
+* **Visual Summary**: سحابة الكلمات نجحت في إبراز الشخصيات والمفردات المحورية في الرواية (مثل الكلمات المرتبطة بالبطل Pip وعائلة Havisham وجو ومفهوم الـ Time).
 * **Automated Clustering**: موديل الـ LDA استطاع فصل الكلمات المرتبطة بالمشاعر والعلاقات الإنسانية في مجموعات (Topics) منفصلة تماماً عن الكلمات التي تدور حول البيئة والمكان وحقوق الملكية لـ Project Gutenberg.
 
 ---
+---
+
+### 📊 Visualizations & Insights
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/908624e1-8909-40b3-8b05-15a6337d3095" width="90%" alt="Word Cloud" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/563ce396-bf94-4f68-9790-76f4a9fd46c9" width="50%" alt="Top Words Bar Chart" />
+</p>
 
 ## 🏃‍♂️ How to Run the Project (طريقة التشغيل)
 1. Clone this repository:
