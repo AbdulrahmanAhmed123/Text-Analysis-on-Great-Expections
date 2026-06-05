@@ -64,3 +64,8 @@ Install the requirements:
 
 Bash
 pip install nltk gensim wordcloud pandas numpy matplotlib 
+
+
+<img width="950" height="485" alt="download" src="https://github.com/user-attachments/assets/908624e1-8909-40b3-8b05-15a6337d3095" />
+
+<img width="389" height="482" alt="download (1)" src="https://github.com/user-attachments/assets/563ce396-bf94-4f68-9790-76f4a9fd46c9" />
