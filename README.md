@@ -49,8 +49,16 @@ To make the text ready for advanced models, we performed:
 
 ---
 
+---
+
 ## 📈 Key Results & Insights (أبرز النتائج)
-* **Visual Summary**: سحابة الكلمات نجحت في إبراز الشخصيات والمفردات المحورية في الرواية (مثل الكلمات المرتبطة بالبطل Pip وعائلة Havisham وجو ومفهوم الـ Time).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/908624e1-8909-40b3-8b05-15a6337d3095" width="60%" alt="Word Cloud Analysis" />
+  <img src="https://github.com/user-attachments/assets/563ce396-bf94-4f68-9790-76f4a9fd46c9" width="35%" alt="Top Words Frequency" />
+</p>
+
+* **Visual Summary**: سحابة الكلمات نجحت في إبراز الشخصيات والمفردات المحورية في الرواية (مثل الكلمات المرتبطة بالبطل Pip وعائلة Havisham وجو ومفهوم الـ Time) كما يظهر في الرسم البياني المرفق لأكثر الكلمات تكراراً.
 * **Automated Clustering**: موديل الـ LDA استطاع فصل الكلمات المرتبطة بالمشاعر والعلاقات الإنسانية في مجموعات (Topics) منفصلة تماماً عن الكلمات التي تدور حول البيئة والمكان وحقوق الملكية لـ Project Gutenberg.
 
 ---
@@ -66,6 +74,5 @@ Bash
 pip install nltk gensim wordcloud pandas numpy matplotlib 
 
 
-<img width="950" height="485" alt="download" src="https://github.com/user-attachments/assets/908624e1-8909-40b3-8b05-15a6337d3095" />
 
 <img width="389" height="482" alt="download (1)" src="https://github.com/user-attachments/assets/563ce396-bf94-4f68-9790-76f4a9fd46c9" />
